@@ -44,9 +44,9 @@ class RationalNumber{
 
 int main() {
     RationalNumber rn;
-    rn.assign(2,3);
+    rn.assign(2,0);
     rn.print();
-    rn.assign(3,2);
+    rn.assign(0,2);
     cout << rn.convert() << endl;
     rn.assign(0,3);
     rn.invert();

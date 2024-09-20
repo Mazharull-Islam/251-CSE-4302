@@ -37,7 +37,7 @@ int main() {
     cout << "Current Temperature : " << t.getTemperature() << endl;
     t.increment();
     cout << "Current Temperature : " << t.getTemperature() << endl;
-    t.increment();
+    t.resetTemp();
     cout << "Current Temperature : " << t.getTemperature() << endl;
     t.increment();
     
