@@ -72,7 +72,7 @@ class BankAccount
     static float getTotalSourceTaxCollected() {
         return totalSourceTaxCollected;
     }
-//friend BankAccount Larger(const BankAccount& A, const BankAccount& B);
+friend BankAccount Larger(const BankAccount& A, const BankAccount& B);
 int BankAccount::totalAccounts = 0;
 int BankAccount::activeAccounts = 0;
 double BankAccount::totalSourceTaxCollected = 0.0;
